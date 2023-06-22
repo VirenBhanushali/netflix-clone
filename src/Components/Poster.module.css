@@ -1,0 +1,166 @@
+@media (min-width: 500px) {
+  .poster {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    transition: transform all 0.5s ease;
+  }
+  .info {
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 5%;
+    margin-top: 20rem;
+    font-size: 16px;
+  }
+  .overview {
+    margin-top: 2rem;
+  }
+  .addToList {
+    margin-top: 1rem;
+  }
+  .addToList button {
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .addToList button span {
+    font-size: 16px;
+    margin-left: 0.75rem;
+  }
+  .arrow {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .leftButton {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .rightButton {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 48%;
+    right: 1%;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .leftButton:hover {
+    transform: scale(1.5);
+  }
+  .rightButton:hover {
+    transform: scale(1.5);
+  }
+}
+@media (max-width: 500px) {
+  .poster {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    transition: transform all 0.5s ease;
+  }
+  .info {
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 5%;
+    margin-top: 20rem;
+    font-size: 10px;
+  }
+  .overview {
+    margin-top: 2rem;
+  }
+  .addToList {
+    margin-top: 1rem;
+  }
+  .addToList button {
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .addToList button span {
+    font-size: 16px;
+    margin-left: 0.75rem;
+  }
+  .arrow {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .leftButton {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .rightButton {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 48%;
+    right: 1%;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .leftButton:hover {
+    transform: scale(1.5);
+  }
+  .rightButton:hover {
+    transform: scale(1.5);
+  }
+}

@@ -1,0 +1,32 @@
+.accountOptions {
+  position: fixed;
+  top: 8%;
+  right: 2%;
+  background-color: black;
+  height: Auto;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.accountOptions ul {
+  list-style: none;
+  padding: 10px;
+}
+.accountOptions h5 {
+  padding: 5px;
+}
+.accountOptions li {
+  margin-top: 10%;
+  padding: 10px;
+}
+
+.links {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.accountOptions li:hover {
+  text-decoration: underline;
+}

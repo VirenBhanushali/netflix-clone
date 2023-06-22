@@ -1,0 +1,138 @@
+@media (min-width: 500px) {
+  .movieDetailContainer {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+  }
+  .poster {
+    display: block;
+  }
+  .moveDetail {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .info {
+    padding: 5px;
+    margin-left: 2rem;
+  }
+  .info p {
+    color: white;
+  }
+  .castcss {
+    height: 230px;
+    display: flex;
+    color: white;
+  }
+  .castcss img {
+    margin-left: 2.5rem;
+    border-radius: 12px;
+  }
+  .castcss h5 {
+    margin-left: 2.5rem;
+  }
+  .castItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .button {
+    display: inline-block;
+    justify-items: center;
+    font-size: 16px;
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px 25px;
+  }
+  .watchbutton {
+    margin-left: 3rem;
+    display: inline-block;
+    justify-items: center;
+    font-size: 16px;
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px 25px;
+  }
+  .info button:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+  }
+}
+@media (max-width: 500px) {
+  .movieDetailContainer {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+  }
+  .poster {
+    display: none;
+  }
+  .moveDetail {
+    margin-top: 5rem;
+    max-width: 120%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .info {
+    max-width: 100%;
+    padding: 5%;
+    margin-left: 0rem;
+  }
+  .info p {
+    color: white;
+  }
+  .castcss {
+    max-width: 110%;
+    height: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .castcss img {
+    margin-left: 1rem;
+    border-radius: 12px;
+  }
+  .castcss h5 {
+    margin-left: 1rem;
+  }
+  .castItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .button {
+    display: inline-block;
+    justify-items: center;
+    font-size: 16px;
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px 25px;
+    margin-left: 3rem;
+  }
+  .watchbutton {
+    margin-left: 3rem;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px 25px;
+  }
+  .info button:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+  }
+}

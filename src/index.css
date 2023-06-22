@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+}
+h1 {
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding: 2%;
+}
+@media (min-width: 500px) {
+  .signupLoginContainer {
+    background-image: url("./seo-watch-free-link-preview.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 2%;
+  }
+  .myList-Container {
+    background-image: url("./netflix-library-photo-1280x720.webp");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 499px) {
+  .signupLoginContainer {
+    background-image: url("./1332640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding-top: 40%;
+  }
+  .myList-Container {
+    background-image: url("./netflix-library-photo-1280x720.webp");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 30%;
+  }
+}

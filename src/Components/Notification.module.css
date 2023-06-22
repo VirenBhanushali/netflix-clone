@@ -1,0 +1,24 @@
+.notificationContainer {
+  position: fixed;
+  top: 8%;
+  right: 5%;
+  background-color: black;
+  height: Auto;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 3;
+}
+.notificationContainer ul {
+  padding: 10px;
+  list-style: none;
+}
+.notificationContainer li {
+  border-bottom: 1px solid white;
+}
+
+.notificationContainer p {
+  padding: 10px;
+  color: white;
+  text-align: center;
+}

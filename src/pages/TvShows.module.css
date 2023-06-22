@@ -1,0 +1,16 @@
+@media (max-width: 499px) {
+  .rowHeading {
+    margin-top: 62vh;
+    color: white;
+    position: relative;
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 599px) {
+  .rowHeading {
+    margin-top: 102vh;
+    color: white;
+    position: relative;
+    margin-left: 2rem;
+  }
+}

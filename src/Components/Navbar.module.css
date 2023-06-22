@@ -1,0 +1,232 @@
+@media (min-width: 500px) {
+  .navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+  }
+  .netflixLogo {
+    display: block;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    z-index: 1;
+  }
+  .links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 2rem;
+    z-index: 1;
+  }
+  .links li {
+    margin-left: 1rem;
+  }
+  .navlink {
+    z-index: 1;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(156, 156, 156);
+  }
+  .active {
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+  }
+  .navlink:hover {
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+  }
+  .user button {
+    z-index: 1;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-right: 1.5rem;
+    cursor: pointer;
+  }
+  .user {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+  }
+  .user span {
+    z-index: 1;
+    margin-right: 1.5rem;
+    cursor: pointer;
+  }
+  .user input {
+    z-index: 1;
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    height: 100%;
+  }
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  .searchbar {
+    z-index: 1;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-right: 1.5rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .searchbar img {
+    z-index: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+  }
+  .searchbar div {
+    z-index: 1;
+    padding: 5px;
+  }
+  .user input:focus {
+    outline: none;
+    border: none;
+  }
+  .profile {
+    z-index: 1;
+    padding: 5%;
+  }
+}
+@media (max-width: 499px) {
+  .navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.65rem;
+    z-index: 1;
+  }
+  .netflixLogo {
+    display: inline-block;
+  }
+  .links {
+    display: flex;
+    list-style: none;
+    margin-left: 0.5rem;
+    z-index: 1;
+  }
+  .links li {
+    margin-left: 0.5rem;
+  }
+  .navlink {
+    z-index: 1;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(156, 156, 156);
+  }
+  .active {
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+  }
+  .navlink:hover {
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+  }
+  .user button {
+    z-index: 1;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .user {
+    z-index: 1;
+    display: flex;
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+  .user span {
+    z-index: 1;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .user input {
+    z-index: 1;
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 60px;
+    height: 50%;
+  }
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  .searchbar {
+    z-index: 1;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-right: 0rem;
+    margin-left: 1rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .searchbar img {
+    z-index: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+  }
+  .searchbar div {
+    z-index: 1;
+    padding: 5px;
+  }
+  .user input:focus {
+    outline: none;
+    border: none;
+  }
+  .profile {
+    z-index: 1;
+    padding: 5%;
+  }
+}
